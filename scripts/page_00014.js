@@ -37,7 +37,7 @@ function InitQuestion14()
 {
     const type = QMAKE_OPENANS;
     const questionIndex = 13;
-    var weight = DecodeNumber('DDpcIH8P4JM=', 1132, 0, 99999);
+    var weight = DecodeNumber('azRE+gUOqG4=', 307, 0, 99999);
     var numOfAnswers = 0;
     var question = new Question(type, weight, numOfAnswers);
     question.answers.length = 0;

@@ -37,7 +37,7 @@ function InitQuestion7()
 {
     const type = QMAKE_MULTIANS;
     const questionIndex = 6;
-    var weight = DecodeNumber('Rsa7cfJDBP8=', 295, 0, 99999);
+    var weight = DecodeNumber('p+6b+n+B4AU=', 864, 0, 99999);
     var numOfAnswers = 3;
     var question = new Question(type, weight, numOfAnswers);
     question.answers.length = 0;
@@ -45,7 +45,7 @@ function InitQuestion7()
     question.shortTextQuestion = "One of the following is a result of proper planning";
     question.timeToAnswer = 0;
     question.noChoice = true;
-    var valuation1 = DecodeNumber('DPnX4yxfH0M=', 297, -1, 1);
+    var valuation1 = DecodeNumber('qho2a1zd1ww=', 866, -1, 1);
     if (valuation1 === -2) PrintWrongKeyword(questionIndex);
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
@@ -53,7 +53,7 @@ function InitQuestion7()
     answer1.shortTextAnswer = "Smooth flow from one point to another";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
-    var valuation2 = DecodeNumber('DPnX4yxfH0M=', 299, -1, 1);
+    var valuation2 = DecodeNumber('qho2a1zd1ww=', 868, -1, 1);
     if (valuation2 === -2) PrintWrongKeyword(questionIndex);
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
@@ -61,7 +61,7 @@ function InitQuestion7()
     answer2.shortTextAnswer = "Fast writing";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
-    var valuation3 = DecodeNumber('lAsa3m6SLco=', 301, -1, 1);
+    var valuation3 = DecodeNumber('v+m5olwFg/A=', 706, -1, 1);
     if (valuation3 === -2) PrintWrongKeyword(questionIndex);
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;

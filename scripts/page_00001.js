@@ -37,7 +37,7 @@ function InitQuestion1()
 {
     const type = QMAKE_MULTIANS;
     const questionIndex = 0;
-    var weight = DecodeNumber('lWfxbQs8gRA=', 273, 0, 99999);
+    var weight = DecodeNumber('GKHSjxlcq8s=', 40, 0, 99999);
     var numOfAnswers = 3;
     var question = new Question(type, weight, numOfAnswers);
     question.answers.length = 0;
@@ -45,7 +45,7 @@ function InitQuestion1()
     question.shortTextQuestion = "The main purpose of academic writing is ________";
     question.timeToAnswer = 0;
     question.noChoice = true;
-    var valuation1 = DecodeNumber('pg7fPTixfBc=', 220, -1, 1);
+    var valuation1 = DecodeNumber('Me17ru9orqU=', 844, -1, 1);
     if (valuation1 === -2) PrintWrongKeyword(questionIndex);
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
@@ -53,7 +53,7 @@ function InitQuestion1()
     answer1.shortTextAnswer = "to inform.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
-    var valuation2 = DecodeNumber('1N3OYbUln3U=', 581, -1, 1);
+    var valuation2 = DecodeNumber('KiQDn6lCzOw=', 204, -1, 1);
     if (valuation2 === -2) PrintWrongKeyword(questionIndex);
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
@@ -61,7 +61,7 @@ function InitQuestion1()
     answer2.shortTextAnswer = "to persuade";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
-    var valuation3 = DecodeNumber('ECZw5J6wKGs=', 419, -1, 1);
+    var valuation3 = DecodeNumber('AK1F+UvswCY=', 206, -1, 1);
     if (valuation3 === -2) PrintWrongKeyword(questionIndex);
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;

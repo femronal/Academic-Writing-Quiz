@@ -37,7 +37,7 @@ function InitQuestion5()
 {
     const type = QMAKE_MULTIANS;
     const questionIndex = 4;
-    var weight = DecodeNumber('BWaaGr0S9Yg=', 526, 0, 99999);
+    var weight = DecodeNumber('XeRb+bSsp2E=', 523, 0, 99999);
     var numOfAnswers = 2;
     var question = new Question(type, weight, numOfAnswers);
     question.answers.length = 0;
@@ -45,7 +45,7 @@ function InitQuestion5()
     question.shortTextQuestion = "Which is meant to demonstrate acquired knowledge to achieve grade attached to it?";
     question.timeToAnswer = 0;
     question.noChoice = true;
-    var valuation1 = DecodeNumber('BWaaGr0S9Yg=', 528, -1, 1);
+    var valuation1 = DecodeNumber('XeRb+bSsp2E=', 525, -1, 1);
     if (valuation1 === -2) PrintWrongKeyword(questionIndex);
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
@@ -53,7 +53,7 @@ function InitQuestion5()
     answer1.shortTextAnswer = "Technical Writing";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
-    var valuation2 = DecodeNumber('mjdKluManJQ=', 530, -1, 1);
+    var valuation2 = DecodeNumber('EmiV64NkDFY=', 527, -1, 1);
     if (valuation2 === -2) PrintWrongKeyword(questionIndex);
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;

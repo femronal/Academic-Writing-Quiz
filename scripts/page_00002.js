@@ -37,7 +37,7 @@ function InitQuestion2()
 {
     const type = QMAKE_MULTIANS;
     const questionIndex = 1;
-    var weight = DecodeNumber('/lw9RsqMso0=', 224, 0, 99999);
+    var weight = DecodeNumber('l61QmZ0zqa0=', 921, 0, 99999);
     var numOfAnswers = 3;
     var question = new Question(type, weight, numOfAnswers);
     question.answers.length = 0;
@@ -45,7 +45,7 @@ function InitQuestion2()
     question.shortTextQuestion = "It provides information from the outcome of ________ and ___________";
     question.timeToAnswer = 0;
     question.noChoice = true;
-    var valuation1 = DecodeNumber('KyZTY49qOyY=', 226, -1, 1);
+    var valuation1 = DecodeNumber('6K6oo13D5L8=', 923, -1, 1);
     if (valuation1 === -2) PrintWrongKeyword(questionIndex);
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
@@ -53,7 +53,7 @@ function InitQuestion2()
     answer1.shortTextAnswer = "observation & investigation";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
-    var valuation2 = DecodeNumber('KyZTY49qOyY=', 228, -1, 1);
+    var valuation2 = DecodeNumber('vqiFSDknWkY=', 643, -1, 1);
     if (valuation2 === -2) PrintWrongKeyword(questionIndex);
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
@@ -61,7 +61,7 @@ function InitQuestion2()
     answer2.shortTextAnswer = "research & planning";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
-    var valuation3 = DecodeNumber('qwcW3rkxuo4=', 230, -1, 1);
+    var valuation3 = DecodeNumber('6acCU3M1u3M=', 645, -1, 1);
     if (valuation3 === -2) PrintWrongKeyword(questionIndex);
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;

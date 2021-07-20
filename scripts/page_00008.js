@@ -37,7 +37,7 @@ function InitQuestion8()
 {
     const type = QMAKE_MULTIANS;
     const questionIndex = 7;
-    var weight = DecodeNumber('/IASjsXi2XA=', 696, 0, 99999);
+    var weight = DecodeNumber('5D/Vzf1OreI=', 428, 0, 99999);
     var numOfAnswers = 3;
     var question = new Question(type, weight, numOfAnswers);
     question.answers.length = 0;
@@ -45,7 +45,7 @@ function InitQuestion8()
     question.shortTextQuestion = "One of these type of writing demands planning and proper revision";
     question.timeToAnswer = 0;
     question.noChoice = true;
-    var valuation1 = DecodeNumber('/IASjsXi2XA=', 698, -1, 1);
+    var valuation1 = DecodeNumber('5D/Vzf1OreI=', 430, -1, 1);
     if (valuation1 === -2) PrintWrongKeyword(questionIndex);
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
@@ -53,7 +53,7 @@ function InitQuestion8()
     answer1.shortTextAnswer = "Academic Writing";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
-    var valuation2 = DecodeNumber('CYE1TA/u0rU=', 700, -1, 1);
+    var valuation2 = DecodeNumber('SSpWCpxHUHo=', 268, -1, 1);
     if (valuation2 === -2) PrintWrongKeyword(questionIndex);
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
@@ -61,7 +61,7 @@ function InitQuestion8()
     answer2.shortTextAnswer = "Technical Writing";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
-    var valuation3 = DecodeNumber('UG+uVI9Dwyc=', 1060, -1, 1);
+    var valuation3 = DecodeNumber('QBs8dN5ZUWs=', 629, -1, 1);
     if (valuation3 === -2) PrintWrongKeyword(questionIndex);
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;

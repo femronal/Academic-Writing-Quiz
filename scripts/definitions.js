@@ -42,7 +42,7 @@ const QMAKE_SEND_WEBAPP = 4;
 const QMAKE_SEND_NODEJS = 5;
 const QMAKE_SEND_NODEJS_LOCAL = 6;  
 
-const QUIZ_KEYWORD = "#ms+ppW6e$Nfsydm";
+const QUIZ_KEYWORD = "eqA5GcIS6IJ7E22k";
 
 const USER_LOGIN_ANONYMOUS = "anonymous";
 const USER_EMAIL_ANONYMOUS = "anonymous@anonymous.nowhere";
@@ -52,8 +52,8 @@ const options =
 	name:"ACADEMIC WRITING - 1",
 	title: "QUIZ ON ACADEMIC WRITING",
 	id: 0,
-	numOfQuestions: 14,
-	notValuatedQuestionsArray: [1,1,1,0,1,1,1,1,1,1,1,1,1,0],
+	numOfQuestions: 16,
+	notValuatedQuestionsArray: [1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1],
 	maxtime: 1800,
 	maxmark: 10,
 	minmark: 0,

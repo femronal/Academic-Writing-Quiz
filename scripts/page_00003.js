@@ -37,7 +37,7 @@ function InitQuestion3()
 {
     const type = QMAKE_MULTIANS;
     const questionIndex = 2;
-    var weight = DecodeNumber('3rCBYglcsv0=', 952, 0, 99999);
+    var weight = DecodeNumber('i6NFTR04mUQ=', 398, 0, 99999);
     var numOfAnswers = 3;
     var question = new Question(type, weight, numOfAnswers);
     question.answers.length = 0;
@@ -45,7 +45,7 @@ function InitQuestion3()
     question.shortTextQuestion = "___________ is written in formal language, which means that it observes all forms of formality. ";
     question.timeToAnswer = 0;
     question.noChoice = true;
-    var valuation1 = DecodeNumber('3rCBYglcsv0=', 954, -1, 1);
+    var valuation1 = DecodeNumber('i6NFTR04mUQ=', 400, -1, 1);
     if (valuation1 === -2) PrintWrongKeyword(questionIndex);
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
@@ -53,7 +53,7 @@ function InitQuestion3()
     answer1.shortTextAnswer = "Academic Writing";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
-    var valuation2 = DecodeNumber('gfaMO56Vjzg=', 956, -1, 1);
+    var valuation2 = DecodeNumber('onZxvJJbFoI=', 291, -1, 1);
     if (valuation2 === -2) PrintWrongKeyword(questionIndex);
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
@@ -61,7 +61,7 @@ function InitQuestion3()
     answer2.shortTextAnswer = "Technical Writing";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
-    var valuation3 = DecodeNumber('Q2xURY5+Uq8=', 958, -1, 1);
+    var valuation3 = DecodeNumber('XrYeZ7OqQX4=', 652, -1, 1);
     if (valuation3 === -2) PrintWrongKeyword(questionIndex);
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;

@@ -37,7 +37,7 @@ function InitQuestion12()
 {
     const type = QMAKE_MULTIANS;
     const questionIndex = 11;
-    var weight = DecodeNumber('VfMoKro/yEs=', 450, 0, 99999);
+    var weight = DecodeNumber('LjLlazwsZ4Y=', 213, 0, 99999);
     var numOfAnswers = 5;
     var question = new Question(type, weight, numOfAnswers);
     question.answers.length = 0;
@@ -45,7 +45,7 @@ function InitQuestion12()
     question.shortTextQuestion = "It requires preparation and it is time bound; it consists writing academically and the time is stipulated to the students.";
     question.timeToAnswer = 0;
     question.noChoice = true;
-    var valuation1 = DecodeNumber('VfMoKro/yEs=', 452, -1, 1);
+    var valuation1 = DecodeNumber('LjLlazwsZ4Y=', 215, -1, 1);
     if (valuation1 === -2) PrintWrongKeyword(questionIndex);
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
@@ -53,7 +53,7 @@ function InitQuestion12()
     answer1.shortTextAnswer = "Assignment";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
-    var valuation2 = DecodeNumber('zWAdhoIAL4Y=', 813, -1, 1);
+    var valuation2 = DecodeNumber('KBB1fnTglF8=', 576, -1, 1);
     if (valuation2 === -2) PrintWrongKeyword(questionIndex);
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
@@ -61,7 +61,7 @@ function InitQuestion12()
     answer2.shortTextAnswer = "Term paper";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
-    var valuation3 = DecodeNumber('KVP+Lh7+UAg=', 815, -1, 1);
+    var valuation3 = DecodeNumber('orb4sw3wwUo=', 578, -1, 1);
     if (valuation3 === -2) PrintWrongKeyword(questionIndex);
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
@@ -69,7 +69,7 @@ function InitQuestion12()
     answer3.shortTextAnswer = "Test";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
-    var valuation4 = DecodeNumber('XimG4E89t5I=', 817, -1, 1);
+    var valuation4 = DecodeNumber('mFIWcon/muU=', 580, -1, 1);
     if (valuation4 === -2) PrintWrongKeyword(questionIndex);
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
@@ -77,7 +77,7 @@ function InitQuestion12()
     answer4.shortTextAnswer = "Examination";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
-    var valuation5 = DecodeNumber('QkSllkgW7ew=', 655, -1, 1);
+    var valuation5 = DecodeNumber('8YxBvgVh3pc=', 419, -1, 1);
     if (valuation5 === -2) PrintWrongKeyword(questionIndex);
     var choice5 = GetMultipleAnswerChoice(questionIndex, 4);
     if (choice5 === 1) question.noChoice = false;
